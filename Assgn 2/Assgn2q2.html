@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FI</title>
+    <style type="text/css">
+        .divTable
+        {
+            display:  table;
+            width:80%;
+            margin-left: 10% ;
+            margin-top: 15%;
+            height: 100px;
+            background-color:#1363df;
+            border:1px solid  #666666;
+            border-spacing:5px;
+        }
+        .divRow
+        {
+           display:table-row;
+           width:180;
+           background-color: #dff6ff ;
+        }
+        .divCell
+        {
+            float:left;
+            text-align: center;
+            display:table-column;
+            width:20%;
+            
+        }
+        .divCol
+        {
+            display:table-cell;
+	        vertical-align:top;
+            text-align: center;
+            padding-right: 20px;
+            column-span: all;
+        }
+    </style>
+</head>
+    <body style="background-color: #47b5ff;">
+        <h1 style="text-align: center; color: #06283d;">Friends' Information</h1>
+        <form id="form1">
+            <div class="divTable">
+                   <div class="headRow">
+                      <div class="divCell">Name</div> 
+                      <div  class="divCell">SIC</div>
+                      <div  class="divCell">Email ID</div>
+                      <div class="divCell">Phone</div>
+                      <div  class="divCell">Address
+                            <div class="divCol">Locality</div>
+                            <div class="divCol">City</div>
+                            <div class="divCol">State</div>
+                      </div>
+                    </div>
+                    <div class="divRow">
+                        <div class="divCell">Nabangi Rath</div>
+                        <div class="divCell">20bcse07</div>
+                        <div class="divCell">nabangi@gmail.com</div>
+                        <div class="divCell">7896543219</div>
+                        <div class="divCell">
+                            <div class="divCol">Sahid Nagar</div> 
+                            <div class="divCol">BBSR</div>
+                            <div class="divCol">Odisha</div>
+                        </div>
+                    </div>
+                        <div class="divRow">
+                        <div class="divCell">Priyanka Patanayak</div>
+                        <div class="divCell">20bcse08</div>
+                        <div class="divCell">ppp@gmail.com</div>
+                        <div class="divCell">7893456779</div>
+                        <div class="divCell">
+                            <div class="divCol">Khandagiri</div>
+                            <div class="divCol">BBSR</div>
+                            <div class="divCol">Odisha</div>
+                        </div>
+                    </div>
+                    <div class="divRow">
+                        <div class="divCell">Harshika Sahoo</div>
+                        <div class="divCell">20bcse09</div>
+                        <div class="divCell">harshika@gmail.com</div>
+                        <div class="divCell">6390876530</div>
+                        <div class="divCell">
+                            <div class="divCol">Kharvela Nagar</div>
+                            <div class="divCol">BBSR</div>
+                            <div class="divCol">Odisha</div>
+                 </div>
+            </div>
+        </form>
+    </body>
+</html>
